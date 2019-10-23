@@ -1,0 +1,67 @@
+Pseudocode
+
+1. Newton
+STORE "m" with any value
+STORE "a" with any value
+STORE "Newton" with any vallue
+
+CALCULATE "m" times "a"
+SET "Newton" value with calculation result
+
+Display "Newton"
+
+2. Tahun Kabisat
+STORE "year" = 2000
+IF ("year" % 4 = 0 and "year" % 100 != 0) || ("year" % 4 = 0 and "year" % 100 = 0 and "year" % 400 = 0)
+    Display "Tahun Kabisat"
+ELSE
+    Display "Bukan Tahun Kabisat"
+
+3. Laundry
+STORE "pakaian" with 0
+WHILE "pakaian" < 20
+SET "pakaian" with "pakaian" +1
+DISPLAY "Washing Machine On"
+
+4. Kuku
+STORE "urutanStudents" = 40
+WHILE "urutanStudents" < 40
+  IF "studentsNail" EQUAL "panjang" THEN
+    DISPLAY "hukum"
+  ELSE IF "studentsNail" EQUALS "pendek" THEN
+    DISPLAY "puji"
+  END IF
+SET "urutanStudents" WITH "urutanStudents" -1
+ENDWHILE
+
+Algoritma
+
+1. Newton
+  1. Masukkan variable m dengan nilai 600
+  2. Masukkan variable a dengan nilai 2
+  3. Masukkan variable Newton tanpa nilai
+  4. Hitung nilai variable m dikali dengan variable a
+  5. Hasil dari perhitungan masukkan ke dalam variable Newton
+  6. Hasil dari perhitungan akan ditampilkan dengan menggunakan DISPLAY
+
+
+2. Tahun Kabisat
+  1. Masukkan variable year dengan nilai apapun
+  2. Dengan menggunakan IF masukkan variable year dengan mod 4 sama dengan 0 dan variable year dengan mod 100 tidak sama dengan 0
+  3. Hubungkan kembali dengan OR variable year dengan mod 4 sama dengan 0 lalu hubungkan dengan AND variable year dengan mod 100 sama dengan 0 lalu hubungkan dengan AND varible year mod 4000 sama dengan 0
+  5. Jika kondisi IF terenuhi, akan menampilkan Tahun Kabisat
+  6. Dan jika tidak, akan menampilkan Bukan Tahun Kabisat
+
+3. Laundry
+  1. Masukkan variable pakaian dengan nilai 0
+  2. Lakukan looping dengan kondisi WHILE, Ketika variable pakaian mempunyai nilai dibawah 20 maka tambahkan nilai variable pakaian dengan ADD sebanyak 1
+  3. Ketika nilai dari variable pakaian telah mencapai 20, maka proses looping akan berhenti dan akan muncul "Washing Machine On" dengan menggunakan DISPLAY
+
+4. Kuku
+  1. Masukkan variable urutanStudents dengan nilai 40
+  2. Lakukan looping dengan kondisi WHILE ketika variable urutanStudents kurang dari 40
+  3. Gunakan kondisi IF studentsNail sama dengan panjang lalu tampilkan dengan DISPLAY hukum
+  4. Hubungkan dengan ELSE IF studentsNail sama dengan pendek maka tampilkan puji dengan DISPLAY
+  5. Tutup kondisi IF dengan END IF
+  6. urutanStudents dikurangkan 1.
+  7. masukkan ENDWHILE untuk menutup WHILE.
